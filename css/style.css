@@ -1,0 +1,115 @@
+   /* COMMON CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+ text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+.container{
+    width: 1187px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.align-center {
+    align-items: center;
+}
+.btn {
+    background-color: #cfc91d;
+    padding: 19px 42px;
+    font-weight: 800;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #0b1016;
+    display: inline-block;
+}
+   /* COMMON CSS END */
+
+
+
+   
+   /* NAV STARTS HERE */
+nav{
+    background-color: #02918c;
+} 
+
+nav .logo{
+width: 40%;
+}
+
+nav .menu{
+width: 60%;
+text-align: right;
+}
+
+nav .menu ul li {
+display: inline-block;
+}
+
+nav .menu ul li a {
+color: #ffffff;
+font-weight: 800;
+font-size: 12px;
+text-transform: uppercase;
+padding: 26px 25px;
+display: inline-block;
+}   
+   /* NAV ENDS HERE */
+
+
+
+
+   /* BANNER STARTS HERE */
+.banner {
+    background-image: url(../images/Banner.jpg);
+    background-color: rgba(0, 0, 0, 0.34);
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 730px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner_cnt {
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+.banner_cnt h4 {
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.banner_cnt h1 {
+    font-weight: 800;
+    font-size: 68px;
+    text-transform: uppercase;
+    letter-spacing: 25px;
+}
+
+.banner_cnt img {
+    padding: 53px 0px;
+}
+
+.banner .container,
+.banner .row {
+    height: 100%;
+}
+   /* BANNER ENDS HERE */
